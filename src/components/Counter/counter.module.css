@@ -1,0 +1,41 @@
+body {
+  background-color: gray;
+}
+.counter_wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 24px;
+  font-weight: bold;
+}
+.counter {
+  text-align: center;
+  border: 2px solid lightblue;
+  background-color: #000;
+  border-radius: 6px;
+}
+.counter > * {
+  margin: 5px;
+}
+.value {
+  background-color: lightblue;
+}
+.limit {
+  color: red;
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid lightblue;
+}
+.btns button {
+  outline: none;
+  border: none;
+  background-color: lightblue;
+  border-radius: 3px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
